@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+
+body {
+  /*background-color: green;*/
+  background-image: http://media.zenfs.com/en_us/News/gettyimages.com/2013-australian-open-day-3-20130115-235325-790.jpg('smiley.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+header {
+  height: 300px;
+}
+.top {
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: center;
+}
+.controls {
+  /*border: 2px solid blue;*/
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+}
+.middle {
+  /*border: 2px solid green;*/
+  height: 400px;
+  /*justify-content: center;*/
+}
+.left {
+  /*border: 2px solid pink;*/
+  display: flex;
+  width: 100%;
+  /*justify-content: center;*/
+}
+.center {
+  /*border: 2px solid pink;*/
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.right {
+  /*border: 2px solid pink;*/
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.bottom {
+  /*border: 2px solid purple;*/
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Josefin Slab;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  background: #4479BA;
+  color: #FFF;
+  font-family: Josefin Slab;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  /*margin: 20px;*/
+  /*padding: 15px 25px;*/
+  border-radius: 10px;
+  box-shadow: 2px 2px black;
+}
+
+button:hover{
+    background: #356094;
+}
